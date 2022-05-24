@@ -2,7 +2,7 @@ const QuestionsList = [
   {
     question: "Almir é o dono deste aplicativo ?",
     answersList: [
-      { answer: "VERSÃO 2", isCorrect: false },
+      { answer: "VERSÃO 3", isCorrect: false },
       { answer: "SIM", isCorrect: true },
       { answer: "Não sei", isCorrect: false },
       { answer: "Vou pensar", isCorrect: false },

@@ -23,7 +23,7 @@ const App = () => {
   {QuestionsList[currentQuestion].answersList.map((answerOption) => (
     
     <li className="answer-list" key={uuidv4()}>
-      <button>{answerOption.answer}</button>
+      <button className="answer-button">{answerOption.answer}</button>
     </li>
 
   ))}
