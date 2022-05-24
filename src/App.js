@@ -19,20 +19,16 @@ const App = () => {
           </div>
         </div>
 
-<div className="answer-section-wrapper">
-  {QuestionsList[currentQuestion].answersList.map((answerOption) => (
-    
-    <li className="answer-list" key={uuidv4()}>
-      <button className="answer-button">{answerOption.answer}</button>
-    </li>
-
-  ))}
-
-
-</div>
-
-
+        <div className="answer-section-wrapper">
+          {QuestionsList[currentQuestion].answersList.map((answerOption) => (
+            <li className="answer-list" key={uuidv4()}>
+              <button className="answer-button">{answerOption.answer}</button>
+            </li>
+          ))}
+        </div>
       </div>
+      <button className="next-button">Next</button>
+      <div></div>
     </div>
   );
 };
