@@ -1,6 +1,7 @@
 # simplequizz-react_js
 
-/////////////////////////////////////This is a Front End To Do List. It's Control of tasks To Do, with the functionality simple, like this, C - Create tasks (ADD), D - Delete tasks from the list,  and check or uncheck the  completed task status (Checked)//////////////////////////////////
+This is a Quiz application. 
+////////////    ==> It's Control of tasks To Do, with the functionality simple, like this, C - Create tasks (ADD), D - Delete tasks from the list,  and check or uncheck the  completed task status <==   //////////////////////////////////
 
 ----------------------------------------------------------------------------------------------
 
@@ -11,8 +12,10 @@
 
 --------------------------------------------------------------------------------------
 
-This project was developed previously for  Code&Co, found on youtube with the title """XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"""
-However, some customizations were made, such as: zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
+This project was developed previously for  Code&Coding, found on youtube with the title """Build A Quiz App Using ReactJS in 2022 || Including Hooks"""
+
+////// ==> 
+However, some customizations were made, such as: zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.  <===
 
 
 &nbsp;
@@ -27,7 +30,7 @@ Msg-linter and comitzen for semantic version and Convencional Commits;  beyond t
 &nbsp;
 # How To Use
 
-To clone and run this application, you'll need Git, Node.js v14.17 or higher + npm (used version npm@8.5.5) installed on your computer from your command line.
+To clone and run this application, you'll need Git, Node.js v16.15 0 or higher + npm (used version npm@8.5.5) installed on your computer from your command line.
 
 
 

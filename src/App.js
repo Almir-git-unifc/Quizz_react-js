@@ -18,6 +18,20 @@ const App = () => {
             {QuestionsList[currentQuestion].question}
           </div>
         </div>
+
+<div className="answer-section-wrapper">
+  {QuestionsList[currentQuestion].answersList.map((answerOption) => (
+    
+    <li className="answer-list" key={uuidv4()}>
+      <button>{answerOption.answer}</button>
+    </li>
+
+  ))}
+
+
+</div>
+
+
       </div>
     </div>
   );

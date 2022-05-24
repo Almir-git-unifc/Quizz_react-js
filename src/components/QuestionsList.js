@@ -2,10 +2,10 @@ const QuestionsList = [
   {
     question: "Almir é o dono deste aplicativo ?",
     answersList: [
+      { answer: "VERSÃO 2", isCorrect: false },
+      { answer: "SIM", isCorrect: true },
       { answer: "Não sei", isCorrect: false },
-      { answer: "Sim", isCorrect: true },
       { answer: "Vou pensar", isCorrect: false },
-      { answer: "Claro, que não", isCorrect: false },
     ],
   },
   {
