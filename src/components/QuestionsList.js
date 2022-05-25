@@ -1,15 +1,15 @@
 const QuestionsList = [
   {
-    question: "Almir é o dono deste aplicativo ?",
+    question: "What does AJAX mean?",
     answersList: [
-      { answer: "VERSÃO 5", isCorrect: false },
-      { answer: "SIM", isCorrect: true },
-      { answer: "Não sei", isCorrect: false },
-      { answer: "Vou pensar", isCorrect: false },
+      { answer: "TCP/IP Protocol?", isCorrect: false },
+      { answer: "Asynchronous JS/XML", isCorrect: true },
+      { answer: "HTTP Protocol", isCorrect: false },
+      { answer: "I'll think about it", isCorrect: false },
     ],
   },
   {
-    question: "Quem criou o Linux ?",
+    question: "Who created Linux ?",
     answersList: [
       { answer: "Mark Zuckerberg", isCorrect: false },
       { answer: "Mark Shuttleworth", isCorrect: false },
@@ -27,7 +27,7 @@ const QuestionsList = [
     ],
   },
   {
-    question: "Quem foi o criador do WWW ?",
+    question: "Who created WWW ?",
     answersList: [
       { answer: "Larry Ellison", isCorrect: false },
       { answer: "Steve Jobs", isCorrect: false },
@@ -36,7 +36,7 @@ const QuestionsList = [
     ],
   },
   {
-    question: "Quem é o mantededor do React ?",
+    question: "Who maintains React ?",
     answersList: [
       { answer: "Google", isCorrect: false },
       { answer: "Amazon", isCorrect: false },

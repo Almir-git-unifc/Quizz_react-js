@@ -14,7 +14,7 @@
   min-height: 100vh;
   }
   .app-wrapper {
-  background-color: #e8d21d;
+  background-color: #75f1f1;
   box-shadow: 3px 6px 40px  #eeff05bf;
   min-width: 400px;
   min-height: 580px;
@@ -39,7 +39,7 @@
   padding-bottom: 5px;
   border: 3px solid white;
   border-radius: 15px;
-  background-color: #7a038a;
+  background-color: #925274;;
   width: 75%;
   margin: 20px  auto;
   }
@@ -58,7 +58,7 @@
   height: 60px;
   }
   .answer-section-wrapper {
-  background-color: #cf1578;
+  background-color: #f5c84c;
   border: 2px  solid  white;
   border-radius: 10px;
   }
@@ -74,7 +74,7 @@
   width: 85%;
   font-size: 24px;
   color: #ffffff;
-  background-color: #53052f;
+  background-color: #925274;
   border-radius: 15px;
   padding: 5px;
   border: 3px  solid  #ffffff;
@@ -89,7 +89,7 @@
   display: flex;
   justify-content: center;
   color: #ffffff;
-  background-color: #7a038a;
+  background-color: #925274;;
   border-radius: 15px;
   border: 3px solid #ffffff;
   cursor: pointer;
@@ -111,15 +111,7 @@
   background-color: orange;
   }
   
-  .completed {
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
-  color: black;
-  margin: 40px  auto;
-  }
-  
-  .score-section {
+   .score-section {
   display: flex;
   justify-content: center;
   font-size: 28px;
@@ -130,3 +122,42 @@
   .correct {
   background-color: green;
   }
+
+.correct-questions {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(20, 104, 48);
+}
+
+.answer-instrutions{
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 700;
+  color: rgb(36, 27, 163);
+}
+
+.title-quiz {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 00;
+  color: #7a038a;
+}
+
+ #square-final{
+  padding: 20px 5px;
+  background-color: #f5c84c;
+  border: 2px  solid  white;
+  border-radius: 10px;
+  }
+
+  .completed {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 00;
+    color: #7a038a;
+    }

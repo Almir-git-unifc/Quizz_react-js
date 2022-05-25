@@ -8,16 +8,27 @@ const App = () => {
   const [score, setScore] = useState(0);
   const [clicked, setClicked] = useState(false);
   const [showScore, setShowScore] = useState(false);
+  const [correctQuestions, setCorrectQuestions] = useState("");
+  const [respCurrentQues, setRespCurrentQues] = useState(false);
 
   const handleCorrectAnswer = (isCorrect) => {
     if (isCorrect) {
-      setScore(score + 1);
+      if (!respCurrentQues) {
+        setScore(score + 1);
+        setCorrectQuestions(correctQuestions + (currentQuestion + 1) + ", ");
+      }
+      setRespCurrentQues(true);
+    } else {
+      setRespCurrentQues(true);
     }
     setClicked(true);
   };
 
   const handleNextQuestion = () => {
     setClicked(false);
+
+    setRespCurrentQues(false);
+
     if (currentQuestion < QuestionsList.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
     } else {
@@ -29,16 +40,30 @@ const App = () => {
     <div className="app-wrapper">
       {showScore ? (
         <div>
-          <div className="completed">Fim do Jogo!</div>
-          <div className="score-section">
-            Pontuação: {score}/{QuestionsList.length}
+          <div className="completed">Game over!</div>
+          <br />
+          <div id="square-final">
+            <div className="score-section">
+              Score: {score}/{QuestionsList.length}
+            </div>
+            <br />
+            <br />
+            <div className="correct-questions">
+              Right questions: {correctQuestions}
+            </div>
           </div>
         </div>
       ) : (
         <div>
+          <div className="title-quiz">QUIZ</div>
+
+          <div className="answer-instrutions">
+            Attention: only the first answer counts
+          </div>
+
           <div className="question-section-wrapper">
             <div className="question-count">
-              Questão {currentQuestion + 1} of {QuestionsList.length}
+              Question {currentQuestion + 1} of {QuestionsList.length}
             </div>
             <div className="question">
               {QuestionsList[currentQuestion].question}
@@ -48,8 +73,9 @@ const App = () => {
             {QuestionsList[currentQuestion].answersList.map((answerOption) => (
               <li className="answer-list" key={uuidv4()}>
                 <button
+                  disable={clicked}
                   className={`answer-button ${
-                    clicked && answerOption.isCorrect ? "correct" : "" 
+                    clicked && answerOption.isCorrect ? "correct" : ""
                   }`}
                   onClick={() => handleCorrectAnswer(answerOption.isCorrect)}
                 >
@@ -59,8 +85,12 @@ const App = () => {
             ))}
           </div>
           <div>
-            <button className="next-button" onClick={handleNextQuestion}>
-              Próximo
+            <button
+              className="next-button"
+              onClick={handleNextQuestion}
+              disabled={!clicked}
+            >
+              Next
             </button>
           </div>
         </div>

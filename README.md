@@ -1,7 +1,6 @@
 # simplequizz-react_js
 
-This is a Quiz application. 
-////////////    ==> It's Control of tasks To Do, with the functionality simple, like this, C - Create tasks (ADD), D - Delete tasks from the list,  and check or uncheck the  completed task status <==   //////////////////////////////////
+This is a Quiz application, that have buttons, checks the total number of questions answered, checks if the answer was correct, and finally presents the score and summary
 
 ----------------------------------------------------------------------------------------------
 
@@ -12,15 +11,14 @@ This is a Quiz application.
 
 --------------------------------------------------------------------------------------
 
-This project was developed previously for  Code&Coding, found on youtube with the title """Build A Quiz App Using ReactJS in 2022 || Including Hooks"""
+This project was developed previously for  Code&Coding, found on youtube with the title """Build A Quiz App Using ReactJS in 2022 || Including Hooks"""; although there is on youtube the same app developed by other people.
 
-////// ==> 
-However, some customizations were made, such as: zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.  <===
+Despite that, I changed the current colors to softer colors; fixed the issue where questions would count multiple times if I kept pressing the right button; and next to the Score, I recorded the questions whose answers were correct.
 
 
 &nbsp;
 # Technologies
-In youtube's video this project was developed with javascript language using technology: React_JS
+In youtube's video this project was developed with javascript language using technology React_JS, and uuidv4.
 
 However, in my devepoment used:
 Msg-linter and comitzen for semantic version and Convencional Commits;  beyond the VS_Code with snippets. 
