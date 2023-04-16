@@ -7,7 +7,7 @@ This is a Quiz application, that have buttons, checks the total number of questi
 
 # Demo
 
-![Quiz](https://github.com/Almir-git-unifc/simplequizz-react_js/blob/main/screenshot.png)
+![Quiz](https://github.com/Almir-git-unifc/Quizz_simple_react-js/blob/main/screenshot.png)
 
 --------------------------------------------------------------------------------------
 
