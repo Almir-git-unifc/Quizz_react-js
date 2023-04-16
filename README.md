@@ -35,12 +35,12 @@ To clone and run this application, you'll need Git, Node.js v16.15 0 or higher +
 
 &nbsp;
 ## Clone this repository
-### $ `git clone https://github.com/Almir-git-unifc/simplequizz-react_js.git`
+### $ `git clone https://github.com/Almir-git-unifc/Quizz_simple_react-js.git`
 
 
 &nbsp;
 ## Go to repository
-### $ `cd simplequizz-react_js`
+### $ `cd Quizz_simple_react-js-main`
 
 
 &nbsp;
