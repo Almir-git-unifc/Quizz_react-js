@@ -18,7 +18,7 @@ const QuestionsList = [
     ],
   },
   {
-    question: "Qual é o maior pico do mundo ?",
+    question: "What is the biggest mountain in the world ?",
     answersList: [
       { answer: "Mount Everest", isCorrect: true },
       { answer: "Mount K2", isCorrect: false },
