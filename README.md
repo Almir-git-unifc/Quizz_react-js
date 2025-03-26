@@ -31,16 +31,24 @@ Despite that, I changed the current colors to softer colors; fixed the issue whe
 
 
 # Feature <a name = "Feature"></a>
-- layout responsive
-- Quizz
+- Interactive quiz with multiple choice questions.
+- Navigation between questions, displaying the current question number and the total.
+- Immediate visual feedback for correct/incorrect answers.
+- Calculation and display of the final result with the user's score, with their classification and display of the list of correct questions.
+- Restriction of a single answer per question.
+- Dynamic rendering of answers.
 
 
 
 &nbsp;
 # Technologies <a name = "Technologies"></a>
-In youtube's video this project was developed with javascript language using technology React_JS, and uuidv4.
+This project was developed using technology:
+- React.js: For building the user interface;
+- JavaScript (ES6+): For application logic;
+- React Hooks UseState: Used for state management;
+- UUID: For generating unique keys.
 
-However, in my devepoment used:
+However, in my devepoment used too:
 Msg-linter and comitzen for semantic version and Convencional Commits;  beyond the VS_Code with snippets. 
 
 
